@@ -1,3 +1,10 @@
+/**
+ * Hubstry Dev++ TradeFlow
+ *
+ * @description Propriedade intelectual da Hubstry, em favor de Guilherme Gonçalves Machado.
+ * @copyright (c) 2024 Hubstry. Todos os direitos reservados.
+ */
+
 const express = require('express');
 const cors = require('cors');
 
