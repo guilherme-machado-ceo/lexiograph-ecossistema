@@ -37,7 +37,13 @@ const LandingPage = () => {
           </ul>
         </section>
 
-        <section id="cta-final" className="content-section">
+        <section id="whitepaper" className="content-section">
+          <h2>Aprofunde seu Conhecimento</h2>
+          <p>Para uma análise detalhada sobre os desafios do setor, nossa abordagem tecnológica e o impacto da nossa plataforma na Economia Azul, leia nosso whitepaper completo.</p>
+          <a href="/whitepaper.md" target="_blank" rel="noopener noreferrer" className="cta-button">Ler o Whitepaper</a>
+        </section>
+
+        <section id="cta-final" className="content-section alt-section">
           <h2>Pronto para Revolucionar seu Comércio Exterior?</h2>
           <p>Veja na prática como nossa plataforma pode transformar suas operações. Acesse o protótipo do nosso dashboard e descubra um mundo de possibilidades.</p>
           <Link to="/dashboard" className="cta-button">Ver o Dashboard em Ação</Link>

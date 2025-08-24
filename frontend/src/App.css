@@ -83,3 +83,15 @@ body {
 .status-desembaraçado {
   background-color: #4caf50;
 }
+
+.status-entregue {
+  background-color: #757575; /* Gray */
+}
+
+.status-atrasado {
+  background-color: #f44336; /* Red */
+}
+
+.status-inspeção-alfandegária {
+  background-color: #9c27b0; /* Purple */
+}
