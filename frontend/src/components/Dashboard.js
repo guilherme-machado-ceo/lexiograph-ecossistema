@@ -12,8 +12,9 @@ const Dashboard = () => {
   const [operations, setOperations] = useState([]);
 
   useEffect(() => {
-    // In a real app, this URL would be in an environment variable
-    fetch('http://localhost:3001/api/operations')
+    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+
+    fetch(`${apiUrl}/api/operations`)
       .then(response => response.json())
       .then(data => setOperations(data))
       .catch(error => console.error('Error fetching operations:', error));
