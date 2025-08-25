@@ -16,7 +16,7 @@ const LandingPage = () => {
         <div className="hero-content">
           <h1>Hubstry Dev++ TradeFlow</h1>
           <p className="tagline">Descomplicando o Comércio Exterior para o Crescimento do Rio de Janeiro.</p>
-          <a href="/dashboard" className="cta-button">Acessar o Protótipo</a>
+          <Link to="/dashboard" className="cta-button">Acessar o Protótipo</Link>
         </div>
       </header>
 
@@ -46,7 +46,7 @@ const LandingPage = () => {
         <section id="cta-final" className="content-section alt-section">
           <h2>Pronto para Revolucionar seu Comércio Exterior?</h2>
           <p>Veja na prática como nossa plataforma pode transformar suas operações. Acesse o protótipo do nosso dashboard e descubra um mundo de possibilidades.</p>
-          <a href="/dashboard" className="cta-button">Ver o Dashboard em Ação</a>
+          <Link to="/dashboard" className="cta-button">Ver o Dashboard em Ação</Link>
         </section>
       </main>
 
